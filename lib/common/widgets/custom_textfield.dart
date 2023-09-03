@@ -16,7 +16,7 @@ class CustomTextField extends StatefulWidget {
 class _CustomTextFieldState extends State<CustomTextField> {
   get controller => null;
 
-  get hintText => 'Email';
+  get hintText => hintText;
 
   @override
   Widget build(BuildContext context) {
